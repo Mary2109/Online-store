@@ -1,0 +1,347 @@
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+.header__text{
+    display: flex;
+    padding-top: 50px;
+
+}
+.header__text_item{
+    height: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 50px;
+
+}
+.active{
+   
+    
+    padding-right: 60px; 
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    margin-left: 60px;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background: #F9F6F1;
+    padding-top: 250px;
+}
+.main__button_active{
+    background: #D7B399;
+    border-color: #D7B399;
+}
+.main_right{
+    height: 350px;;
+    background-image: url("shoes.png");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-bottom: 135px;
+}
+.main__tittle{
+    font-size: 30px;
+    line-height: 37px;
+}
+.main__text{
+    font-size: 55px;
+    line-height: 67px;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    font-weight: bolder
+}
+.main__text_right{
+    font-size: 42px;
+    line-height: 51px;
+    color: #D84033;
+    padding-top: 30px;
+    font-weight: bold;
+}
+.main__title_right{
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+.main__footer{
+    
+    display: flex;
+    justify-content: center;
+    padding-bottom: 65px;
+}
+.main__footer_point{
+    width: 40px;
+    height: 7px;
+    background: #CECECE;
+    margin-left: 15px;
+}
+.main__footer_point_active{
+    background: #D7B399;
+}
+.free-shiping{
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+.free-shiping__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.free-shiping__content_title{
+    font-size: 30px;
+    line-height: 37px;
+    color: white;
+    padding-top: 80px;
+}
+.free-shiping__content_text{
+    font-weight: 100;
+    font-size: 21px;
+    line-height: 26px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    color: white;
+}
+.free-shiping__content_title_active{
+    font-weight: bolder;
+}
+.free-shiping__content_title_none{
+    font-weight: 100;
+}
+.collection{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #F9F6F1 50%, #F4F4F4 50%);
+}
+.men__collection_title{
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 29px;
+    padding-top: 60px;
+    padding-bottom: 25px;
+}
+.men__collection_title_active{
+    font-weight: bolder;
+}
+.men__collection_text{
+    font-weight: 300;
+font-size: 16px;
+line-height: 20px;
+padding-bottom: 35px;
+}
+.men__collection_right{
+    padding-top: 80px;
+}
+.men__collection_button_active{
+    background: #D7B399;
+    border-color: #D7B399;
+    width: 80px;
+}
+.catalog__text_green{
+    height: 230px;
+    width: 100%;
+    background-image: url("green t-shirt.png");
+    padding-top: 180px;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    padding-left: 30px;
+}
+.catalog__text_pink{
+    height: 230px;
+    width: 100%;
+    background-image: url("pink t-shirt.png");
+    padding-top: 180px;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    padding-left: 30px;
+}
+.arrow{
+    padding-bottom: 3%;
+}
+.new-model__title{
+    padding-top: 150px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+}
+.new-model__prewiew{
+    
+    
+}
+.new-model__prewiew_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: dotted;
+    border-color: black;
+   
+}
+.new-model__prewiew_item_title{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    width: 50%;
+    padding-top: 20px;
+    
+}
+.new-model__prewiew_item_text{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #D7B399;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.new-model__prewiew_item_foto{
+    padding-top: 15px;
+    width: 80%;
+}
+.new-model__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new-model__button_active{
+    background: #D7B399;
+    border-color: #D7B399;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    
+}
+.sale{
+    background: black;
+}
+.sale__item{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+}
+.sale__title{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    padding-bottom: 70px;
+}
+.sale__button{
+    padding-bottom: 70px;
+}
+.sale__button_active{
+    margin-left: 30px;
+    background: #D7B399;
+    border-color: #D7B399;
+}
+.footer{
+    background: black;
+}
+.footer__items{
+    color: white;
+    padding-top: 80px;
+}
+.footer__logo{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    padding-bottom: 30px;
+    
+}
+.footer__logo_foto{
+    padding-right: 15px;
+    
+}
+.footer__logo_text{
+    width: 60%;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+}
+.footer__items_title{
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    padding-bottom: 20px;
+}
+.footer__items_text{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    padding-bottom: 85px;
+    color: #CBCFD4;
+}
+p{
+    margin-bottom: 15px;
+}
+.footer__items_text_logo{
+    padding-right: 5px;
+}
+.epilogue{
+    padding-top: 30px;
+}
+.epilogue__text{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    padding-bottom: 30px;
+}
+.epilogue__text_item{
+    text-align: right;
+}
+@media (max-width:1025px){
+    .collection{
+        background: linear-gradient(to bottom, #F9F6F1 50%, #F4F4F4 50%);
+    }
+}
+@media (max-width:769px){
+    
+    .header__text{
+        flex-wrap: wrap;
+    }
+    .header__text_item{
+        width: 18%;
+        padding-left: 0;
+    }
+}
+@media (max-width:426px){
+    .main_right{
+        height: 300px;
+        background-size: 100%;
+        padding-top: 205px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .main__text_right{
+        padding-top: 0;
+    }
+    .header__text_item{
+        width: 50%;
+    }
+    .active{
+        font-size: 12px;
+        padding-right: 0; 
+        font-weight: bold;
+        line-height: 10px;
+        margin-left: 0;
+    }
+    .footer__logo_foto{
+        padding-right: 5px;
+    }
+}
